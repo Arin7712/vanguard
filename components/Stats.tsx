@@ -3,18 +3,22 @@
 import Image from 'next/image'
 import React from 'react'
 import { motion } from 'framer-motion'
+import type { Variants } from 'framer-motion'
 
-const fadeIn = (delay = 0) => ({
-  hidden: { opacity: 0, y: 30 },
+const fadeIn = (delay = 0): Variants => ({
+  hidden: {
+    opacity: 0,
+    y: 30,
+  },
   show: {
     opacity: 1,
     y: 0,
     transition: {
       duration: 0.6,
       delay,
-      ease: 'easeOut'
-    }
-  }
+      ease: 'easeOut',
+    },
+  },
 })
 
 const Stats = () => {
