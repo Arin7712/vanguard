@@ -42,7 +42,7 @@ const cards = [
 
 const Process = () => {
   return (
-    <div className="flex flex-col mx-6 bg-yellow-200 rounded-lg pb-[4rem]">
+    <div className="flex flex-col mx-2 md:mx-6 bg-yellow-200 rounded-lg pb-[4rem]">
       <motion.div
         variants={fadeIn(0.1)}
         initial="hidden"

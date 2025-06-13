@@ -23,7 +23,7 @@ const fadeIn = (delay = 0): Variants => ({
 
 const Stats = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center justify-between md:px-[6rem] px-6 md:h-[100vh]">
+    <div className="flex md:flex-row flex-col items-center justify-between md:px-[6rem] px-6 md:h-[100vh] md:pt-0 pt-[4rem]">
       <motion.div
         variants={fadeIn(0.1)}
         initial="hidden"
