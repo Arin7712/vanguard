@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
 import Stats from '@/components/Stats'
@@ -9,6 +10,7 @@ const page = () => {
       <Hero/>
       <Stats/>
       <Process/>
+      <About/>
     </div>
   )
 }
