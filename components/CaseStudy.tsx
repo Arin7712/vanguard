@@ -39,7 +39,7 @@ const caseStudy = [
 const CaseStudy = () => {
   return (
     <div className="flex flex-col items-center justify-between md:px-[6rem] px-6 md:pt-0 pt-[4rem]">
-      <div className="flex md:flex-row flex-col justify-between md:items-center w-full px-6 py-[4rem] md:gap-0 gap-4">
+      <div className="flex md:flex-row flex-col justify-between md:items-center w-full md:px-6 py-[4rem] md:gap-0 gap-4">
         <motion.h1
           className="text-3xl font-medium max-w-sm"
           variants={fadeInUp}
