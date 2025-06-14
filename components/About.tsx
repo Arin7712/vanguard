@@ -51,7 +51,7 @@ const About = () => {
 
       <motion.div
         variants={fadeInUp(0.9)}
-        className="md:w-[40%] md:pb-0 pb-[4rem]"
+        className="md:w-[40%] md:pb-0 pb-[4rem] md:px-0 px-4"
       >
         <Image
           src="/asset1.jpg"

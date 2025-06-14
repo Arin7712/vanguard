@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Choose from '@/components/Choose'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
 import Stats from '@/components/Stats'
@@ -11,6 +12,7 @@ const page = () => {
       <Stats/>
       <Process/>
       <About/>
+      <Choose/>
     </div>
   )
 }
