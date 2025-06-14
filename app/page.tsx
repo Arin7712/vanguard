@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import CaseStudy from '@/components/CaseStudy'
 import Choose from '@/components/Choose'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
@@ -13,6 +14,7 @@ const page = () => {
       <Process/>
       <About/>
       <Choose/>
+      <CaseStudy/>
     </div>
   )
 }
