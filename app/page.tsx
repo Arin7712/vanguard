@@ -1,6 +1,7 @@
 import About from '@/components/About'
 import CaseStudy from '@/components/CaseStudy'
 import Choose from '@/components/Choose'
+import { Footer7 } from '@/components/footer-7'
 import Hero from '@/components/Hero'
 import Process from '@/components/Process'
 import Process2 from '@/components/Process2'
@@ -17,6 +18,7 @@ const page = () => {
       <Choose/>
       <CaseStudy/>
       <Process2/>
+      <Footer7/>
     </div>
   )
 }
