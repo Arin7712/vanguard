@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Blog from '@/components/Blog'
 import CaseStudy from '@/components/CaseStudy'
 import Choose from '@/components/Choose'
 import { Footer7 } from '@/components/footer-7'
@@ -20,6 +21,7 @@ const page = () => {
       <CaseStudy/>
       <Process2/>
       <Testimonials/>
+      <Blog/>
       <Footer7/>
     </div>
   )

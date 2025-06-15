@@ -97,7 +97,7 @@ const Testimonials = () => {
         className="flex md:flex-row flex-col justify-between md:items-center w-full md:px-6 py-[4rem] md:gap-0 gap-4"
         initial="hidden"
         animate={controls}
-        variants={fadeIn(0.2)}
+        variants={fadeIn(0.4)}
       >
         <h1 className="text-3xl font-medium max-w-sm">
           Hear from those who've grown with us
@@ -108,7 +108,7 @@ const Testimonials = () => {
           className="md:flex gap-2 hidden"
           initial="hidden"
           animate={controls}
-          variants={fadeIn(0.4)}
+          variants={fadeIn(0.6)}
         >
           <Button className={btnClass(hasPrev)} onClick={() => api?.scrollPrev()}>
             <MoveLeft />
@@ -167,7 +167,7 @@ const Testimonials = () => {
         className="md:hidden gap-2 flex pt-6"
         initial="hidden"
         animate={controls}
-        variants={fadeIn(0.5)}
+        variants={fadeIn(0.8)}
       >
         <Button className={btnClass(hasPrev)} onClick={() => api?.scrollPrev()}>
           <MoveLeft />
