@@ -6,6 +6,7 @@ import Hero from '@/components/Hero'
 import Process from '@/components/Process'
 import Process2 from '@/components/Process2'
 import Stats from '@/components/Stats'
+import Testimonials from '@/components/Testimonials'
 import React from 'react'
 
 const page = () => {
@@ -18,6 +19,7 @@ const page = () => {
       <Choose/>
       <CaseStudy/>
       <Process2/>
+      <Testimonials/>
       <Footer7/>
     </div>
   )
