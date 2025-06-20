@@ -73,14 +73,14 @@ export const Navbar5 = () => {
               className="max-h-8"
               alt="Shadcn UI Navbar"
             />
-            <span className="text-lg font-semibold tracking-tighter">
-              Vanguard
+            <span className="text-lg font-semibold tracking-tighter text-orange-700">
+              PPS
             </span>
           </a>
           <NavigationMenu className="hidden lg:block">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Features</NavigationMenuTrigger>
+                <NavigationMenuTrigger>Experience</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div className="grid w-[600px] grid-cols-2 p-3">
                     {features.map((feature, index) => (
@@ -107,7 +107,7 @@ export const Navbar5 = () => {
                   href="#"
                   className={navigationMenuTriggerStyle()}
                 >
-                  Products
+                  About
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -115,7 +115,7 @@ export const Navbar5 = () => {
                   href="#"
                   className={navigationMenuTriggerStyle()}
                 >
-                  Resources
+                  Services
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -129,8 +129,8 @@ export const Navbar5 = () => {
             </NavigationMenuList>
           </NavigationMenu>
           <div className="hidden items-center gap-4 lg:flex">
-            <Button className="bg-tranaparent text-black">Book a Call</Button>
-            <Button className="rounded-full px-6 text-sm bg-neutral-800">Work with Us</Button>
+            <Button className="bg-tranaparent text-black">See our work</Button>
+            <Button className="rounded-full px-6 text-sm bg-orange-700">Call Now {"  "}→</Button>
           </div>
           <Sheet>
             <SheetTrigger asChild className="lg:hidden">
